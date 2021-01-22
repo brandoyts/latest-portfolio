@@ -51,7 +51,7 @@ function Project({ title, description, imageSrc, demoLink, gitLink }) {
 
 	const renderDemoLink = () => {
 		return demoLink ? (
-			<a href={demoLink ? demoLink : "#"}>
+			<a href={demoLink ? demoLink : "#"} target="_blank">
 				Demo{" "}
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
@@ -66,11 +66,7 @@ function Project({ title, description, imageSrc, demoLink, gitLink }) {
 				</svg>
 			</a>
 		) : (
-			<a
-				href={demoLink ? demoLink : "#"}
-				className={styles.disabled}
-				target="_blank"
-			>
+			<a href={demoLink ? demoLink : "#"} className={styles.disabled}>
 				Private
 				<svg
 					xmlns="http://www.w3.org/2000/svg"

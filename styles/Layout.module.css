@@ -1,0 +1,14 @@
+.container {
+	margin: 0 auto;
+	padding: 1.25rem;
+	max-width: 112.5rem;
+}
+
+.pageTitle {
+	text-transform: capitalize;
+	color: rgb(71, 69, 69);
+	letter-spacing: 0.5rem;
+	margin: 5rem 0;
+	font-weight: 300;
+	font-size: calc(2.25rem + 6 * ((100vw - 320px) / 250));
+}

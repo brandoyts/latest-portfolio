@@ -1,0 +1,71 @@
+.about {
+	max-width: 700px;
+}
+
+.about__textContent > p {
+	font-size: 1rem;
+	line-height: 1.8;
+	text-align: center;
+	color: white;
+}
+
+/* Diagonal stacked paper effect */
+.about__textContent {
+	background-image: linear-gradient(to left, #8e2de2, #4a00e0);
+	/* background-color: rgb(151, 74, 211); */
+	/* Need position to allow stacking of pseudo-elements */
+	position: relative;
+	/* Padding for demo purposes */
+	padding: 30px;
+}
+
+.about__textContent,
+.about__textContent::before,
+.about__textContent::after {
+	/* Add shadow to distinguish sheets from one another */
+	box-shadow: 2px 1px 1px rgba(0, 0, 0, 0.15);
+}
+
+.about__textContent::before,
+.about__textContent::after {
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-image: linear-gradient(to left, #8e2de2, #4a00e0);
+}
+
+/* Second sheet of about__textContent */
+.about__textContent::before {
+	left: 7px;
+	top: 5px;
+	z-index: -1;
+}
+
+/* Third sheet of about__textContent */
+.about__textContent::after {
+	left: 12px;
+	top: 10px;
+	z-index: -2;
+}
+
+.about__skills {
+	margin-top: 30px;
+}
+
+.about__skills > p {
+	text-align: center;
+	color: white;
+	font-size: 1rem;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+
+.about__skills > div {
+	display: flex;
+	gap: 15px;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	align-items: center;
+	margin: 20px auto;
+}

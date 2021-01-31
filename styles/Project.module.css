@@ -21,6 +21,7 @@
 	margin: 0 auto;
 	width: 75%;
 	text-align: center;
+	color: whitesmoke;
 }
 
 .project__textContent__title {
@@ -41,7 +42,7 @@
 }
 
 .project .links > a {
-	background: black;
+	background: rgb(31, 31, 31);
 	color: white;
 	padding: 5px 10px;
 	border-radius: 3px;
@@ -53,7 +54,7 @@
 }
 
 .project .links > a:hover {
-	background-color: rgb(32, 32, 32);
+	background-color: rgb(54, 53, 53);
 }
 
 .project .links > a > svg {
@@ -61,7 +62,14 @@
 	width: 1.25rem;
 }
 
-.project .links > a.disabled {
+.project .links > span.disabled {
+	background: rgb(31, 31, 31);
+	color: white;
+	padding: 5px 10px;
+	border-radius: 3px;
+	font-size: 12px;
+	display: inline-flex;
+	align-items: center;
+	gap: 0.625rem;
 	cursor: default;
-	background: rgb(168, 168, 168);
 }

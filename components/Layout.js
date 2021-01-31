@@ -8,10 +8,6 @@ function Layout({ title, children }) {
 		<div className={styles.container}>
 			<Head>
 				<title>Brando Endona | {title}</title>
-				<link
-					rel="icon"
-					href="https://www.flaticon.com/svg/vstatic/svg/3721/3721726.svg?token=exp=1611245941~hmac=7d4254e40c45bf985ab6d43b956a486c"
-				/>
 			</Head>
 			<Header />
 

@@ -24,7 +24,7 @@ function Project({ title, description, imageSrc, demoLink, gitLink }) {
 			</a>
 		) : (
 			<span href={gitLink ? gitLink : "#"} className={styles.disabled}>
-				Source <BiCodeAlt />
+				Private <BiCodeAlt />
 			</span>
 		);
 	};

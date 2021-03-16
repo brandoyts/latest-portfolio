@@ -1,5 +1,4 @@
 import React from "react";
-import Link from "next/link";
 import { BiCodeAlt } from "react-icons/bi";
 import { CgBrowser } from "react-icons/cg";
 import styles from "../styles/Project.module.css";

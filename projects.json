@@ -42,7 +42,7 @@
 
 	{
 		"title": "Amazon Prime (clone ui)",
-		"description": "I built this project with next.js. Consuming movie api from external provider",
+		"description": "Consuming movie api from external provider",
 		"imageSrc": ["/images/projects/prime/1.png"],
 		"demoLink": "https://prime-clone-dc443.web.app/",
 		"gitLink": "https://github.com/brandoyts/amazon-prime-clone"
@@ -61,7 +61,7 @@
 
 	{
 		"title": "Linkedin (clone ui)",
-		"description": "Built with react.js that uses firebase to implement real time data fetching",
+		"description": "Built with react.js and firebase to implement real time data fetching",
 		"imageSrc": [
 			"/images/projects/linkedin/1.png",
 			"/images/projects/linkedin/2.png"
@@ -72,7 +72,7 @@
 
 	{
 		"title": "Perogit",
-		"description": "Using github api to fetch a searched repository",
+		"description": "Using github api to fetch a repository",
 		"imageSrc": ["/images/projects/perogit/perogit.png"],
 		"demoLink": "https://perogit-327d0.web.app/",
 		"gitLink": "https://github.com/brandoyts/perogit"

@@ -44,7 +44,7 @@
 		"title": "Amazon Prime (clone ui)",
 		"description": "Consuming movie api from external provider",
 		"imageSrc": ["/images/projects/prime/1.png"],
-		"demoLink": "https://prime-clone-dc443.web.app/",
+		"demoLink": null,
 		"gitLink": "https://github.com/brandoyts/amazon-prime-clone"
 	},
 

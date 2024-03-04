@@ -13,7 +13,7 @@ import { SiMysql } from "react-icons/si";
 import { FaSass } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaAws } from "react-icons/fa";
-
+import { SiTailwindcss } from "react-icons/si";
 import Skill from "../components/Skill";
 
 function about() {
@@ -34,6 +34,7 @@ function about() {
               <Skill icon={<AiFillHtml5 />} />
               <Skill icon={<FaCss3Alt />} />
               <Skill icon={<FaSass />} />
+              <Skill icon={<SiTailwindcss />} />
               <Skill icon={<SiJavascript />} />
               <Skill icon={<FaReact />} />
               <Skill icon={<DiNodejs />} />

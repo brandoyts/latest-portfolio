@@ -12,41 +12,42 @@ import { FaLaravel } from "react-icons/fa";
 import { SiMysql } from "react-icons/si";
 import { FaSass } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
+import { FaAws } from "react-icons/fa";
 
 import Skill from "../components/Skill";
 
 function about() {
-	return (
-		<Layout title="About">
-			<div className={styles.about}>
-				<div className={styles.about__textContent}>
-					<p>
-						My passion is all coding. I like the logic and structure
-						of coding and always strive to write elegant and
-						efficient code. In terms of web designing, i enjoy
-						taking complex problems and taking them into simple and
-						beautiful UI designs.
-					</p>
+  return (
+    <Layout title="About">
+      <div className={styles.about}>
+        <div className={styles.about__textContent}>
+          <p>
+            My passion is all coding. I like the logic and structure of coding
+            and always strive to write elegant and efficient code. In terms of
+            web designing, i enjoy taking complex problems and taking them into
+            simple and beautiful UI designs.
+          </p>
 
-					<div className={styles.about__skills}>
-						<p>My Development Skills</p>
-						<div>
-							<Skill icon={<AiFillHtml5 />} />
-							<Skill icon={<FaCss3Alt />} />
-							<Skill icon={<FaSass />} />
-							<Skill icon={<SiJavascript />} />
-							<Skill icon={<FaReact />} />
-							<Skill icon={<DiNodejs />} />
-							<Skill icon={<FaPhp />} />
-							<Skill icon={<FaLaravel />} />
-							<Skill icon={<SiMysql />} />
-							<Skill icon={<FaGithub />} />
-						</div>
-					</div>
-				</div>
-			</div>
-		</Layout>
-	);
+          <div className={styles.about__skills}>
+            <p>My Development Skills</p>
+            <div>
+              <Skill icon={<AiFillHtml5 />} />
+              <Skill icon={<FaCss3Alt />} />
+              <Skill icon={<FaSass />} />
+              <Skill icon={<SiJavascript />} />
+              <Skill icon={<FaReact />} />
+              <Skill icon={<DiNodejs />} />
+              <Skill icon={<FaPhp />} />
+              <Skill icon={<FaLaravel />} />
+              <Skill icon={<SiMysql />} />
+              <Skill icon={<FaGithub />} />
+              <Skill icon={<FaAws />} />
+            </div>
+          </div>
+        </div>
+      </div>
+    </Layout>
+  );
 }
 
 export default about;

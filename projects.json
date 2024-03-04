@@ -1,80 +1,99 @@
 [
-	{
-		"title": "Tilde",
-		"description": "Web based contact tracing app with real time data visualization",
-		"imageSrc": [
-			"/images/projects/tilde/2.png",
-			"/images/projects/tilde/3.png",
-			"/images/projects/tilde/4.png"
-		],
-		"demoLink": null,
-		"gitLink": null
-	},
+  {
+    "title": "Tilde",
+    "description": "Web based contact tracing app with real time data visualization",
+    "imageSrc": [
+      "/images/projects/tilde/2.png",
+      "/images/projects/tilde/3.png",
+      "/images/projects/tilde/4.png"
+    ],
+    "demoLink": null,
+    "gitLink": null
+  },
 
-	{
-		"title": "Seen Zone",
-		"description": "Service tracker and appointment reservation",
-		"imageSrc": [
-			"/images/projects/seenzone/1.png",
-			"/images/projects/seenzone/2.png",
-			"/images/projects/seenzone/3.png",
-			"/images/projects/seenzone/4.png",
-			"/images/projects/seenzone/5.png"
-		],
-		"demoLink": "http://seenzoneautoclinic.com/",
-		"gitLink": null
-	},
+  {
+    "title": "SeenZone Auto Clinic",
+    "description": "Service tracker and appointment reservation",
+    "imageSrc": [
+      "/images/projects/seenzone/1.png",
+      "/images/projects/seenzone/2.png",
+      "/images/projects/seenzone/3.png",
+      "/images/projects/seenzone/4.png",
+      "/images/projects/seenzone/5.png"
+    ],
+    "demoLink": "http://seenzoneautoclinic.com/",
+    "gitLink": null
+  },
 
-	{
-		"title": "Seen Zone Admin",
-		"description": "Admin panel for Seen Zone with data visualization",
-		"imageSrc": [
-			"/images/projects/seenzone_admin/1.png",
-			"/images/projects/seenzone_admin/2.png",
-			"/images/projects/seenzone_admin/3.png",
-			"/images/projects/seenzone_admin/4.png",
-			"/images/projects/seenzone_admin/5.png",
-			"/images/projects/seenzone_admin/6.png"
-		],
-		"demoLink": null,
-		"gitLink": null
-	},
+  {
+    "title": "SeenZone Admin Panel",
+    "description": "Admin panel for Seen Zone with data visualization",
+    "imageSrc": [
+      "/images/projects/seenzone_admin/1.png",
+      "/images/projects/seenzone_admin/2.png",
+      "/images/projects/seenzone_admin/3.png",
+      "/images/projects/seenzone_admin/4.png",
+      "/images/projects/seenzone_admin/5.png",
+      "/images/projects/seenzone_admin/6.png"
+    ],
+    "demoLink": null,
+    "gitLink": null
+  },
 
-	{
-		"title": "Amazon Prime (clone ui)",
-		"description": "Consuming movie api from external provider",
-		"imageSrc": ["/images/projects/prime/1.png"],
-		"demoLink": null,
-		"gitLink": "https://github.com/brandoyts/amazon-prime-clone"
-	},
+  {
+    "title": "DevTech News",
+    "description": "Fetch latest tech news from external API",
+    "imageSrc": ["/images/projects/dev_tech_news/1.png"],
+    "demoLink": "https://dev-news-eight.vercel.app/",
+    "gitLink": "https://github.com/brandoyts/dev-news"
+  },
+  {
+    "title": "Random Password Generator",
+    "description": "Generate a random password, ensuring top-notch protection for your digital creations 😉",
+    "imageSrc": ["/images/projects/password_generator/1.png"],
+    "demoLink": "https://password-generator-ashen-gamma-39.vercel.app/",
+    "gitLink": "https://github.com/brandoyts/password-generator"
+  },
 
-	{
-		"title": "Qmeal",
-		"description": "A recipe searching app",
-		"imageSrc": [
-			"/images/projects/qmeal/1.png",
-			"/images/projects/qmeal/2.png"
-		],
-		"demoLink": "https://qmeal.herokuapp.com/",
-		"gitLink": "https://github.com/brandoyts/self_qmeal"
-	},
+  {
+    "title": "Qmeal",
+    "description": "A recipe searching app",
+    "imageSrc": [
+      "/images/projects/qmeal/1.png",
+      "/images/projects/qmeal/2.png"
+    ],
+    "demoLink": "https://qmeal.herokuapp.com/",
+    "gitLink": "https://github.com/brandoyts/self_qmeal"
+  },
+  {
+    "title": "Lansea",
+    "description": "E-job posting platform",
+    "imageSrc": [
+      "/images/projects/lansea/1.png",
+      "/images/projects/lansea/2.png",
+      "/images/projects/lansea/3.png",
+      "/images/projects/lansea/4.png"
+    ],
+    "demoLink": "https://lansea.vercel.app/",
+    "gitLink": "https://github.com/brandoyts/lansea-backend"
+  },
 
-	{
-		"title": "Linkedin (clone ui)",
-		"description": "Built with react.js and firebase to implement real time data fetching",
-		"imageSrc": [
-			"/images/projects/linkedin/1.png",
-			"/images/projects/linkedin/2.png"
-		],
-		"demoLink": "https://linkedin-clone-d9260.web.app/",
-		"gitLink": "https://github.com/brandoyts/linkedin-clone"
-	},
+  {
+    "title": "Linkedin (clone ui)",
+    "description": "Built with react.js and firebase to implement real time data fetching",
+    "imageSrc": [
+      "/images/projects/linkedin/1.png",
+      "/images/projects/linkedin/2.png"
+    ],
+    "demoLink": "https://linkedin-clone-d9260.web.app/",
+    "gitLink": "https://github.com/brandoyts/linkedin-clone"
+  },
 
-	{
-		"title": "Perogit",
-		"description": "Using github api to fetch a repository",
-		"imageSrc": ["/images/projects/perogit/perogit.png"],
-		"demoLink": "https://perogit-327d0.web.app/",
-		"gitLink": "https://github.com/brandoyts/perogit"
-	}
+  {
+    "title": "Perogit",
+    "description": "Using github api to fetch a repository",
+    "imageSrc": ["/images/projects/perogit/perogit.png"],
+    "demoLink": "https://perogit-327d0.web.app/",
+    "gitLink": "https://github.com/brandoyts/perogit"
+  }
 ]

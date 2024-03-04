@@ -1,75 +1,75 @@
 .project {
-	border-radius: 8px;
-	width: 100%;
-	transition: transform 0.4s ease-in-out;
+  border-radius: 8px;
+  width: 100%;
+  transition: transform 0.4s ease-in-out;
 }
 
 .project:hover {
-	transform: translateY(-15px);
+  transform: translateY(-15px);
 }
 
 .project__img {
-	margin-bottom: 12px;
-	width: 100%;
+  margin-bottom: 12px;
+  width: 100%;
 }
 
 .project__img img {
-	width: 100%;
+  width: 100%;
 }
 
 .project__textContent {
-	margin: 0 auto;
-	width: 75%;
-	text-align: center;
-	color: whitesmoke;
+  margin: 0 auto;
+  width: 75%;
+  text-align: center;
+  color: whitesmoke;
 }
 
 .project__textContent__title {
-	font-size: 1.125rem;
-	margin-bottom: 10px;
+  font-size: 1.125rem;
+  margin-bottom: 10px;
 }
 
 .project__textContent__description {
-	font-size: 0.75rem;
-	letter-spacing: 1px;
+  font-size: 0.75rem;
+  letter-spacing: 1px;
 }
 
 .project .links {
-	display: flex;
-	justify-content: center;
-	gap: 0.75rem;
-	margin-bottom: 0.75rem;
+  display: flex;
+  justify-content: center;
+  gap: 0.75rem;
+  margin-bottom: 0.75rem;
 }
 
 .project .links > a {
-	background: rgb(31, 31, 31);
-	color: white;
-	padding: 5px 10px;
-	border-radius: 3px;
-	font-size: 12px;
-	display: inline-flex;
-	align-items: center;
-	gap: 0.625rem;
-	transition: background-color 0.3s ease-in-out;
+  background: rgb(31, 31, 31);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 3px;
+  font-size: 12px;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.625rem;
+  transition: background-color 0.3s ease-in-out;
 }
 
 .project .links > a:hover {
-	background-color: rgb(54, 53, 53);
+  background-color: rgb(54, 53, 53);
 }
 
 .project .links > a > svg {
-	height: 1.25rem;
-	width: 1.25rem;
+  height: 1.25rem;
+  width: 1.25rem;
 }
 
 .project .links > span.disabled {
-	background: rgb(31, 31, 31);
-	color: white;
-	padding: 5px 10px;
-	border-radius: 3px;
-	font-size: 12px;
-	display: inline-flex;
-	align-items: center;
-	gap: 0.625rem;
-	cursor: default;
+  background: rgb(31, 31, 31);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 3px;
+  font-size: 12px;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.625rem;
+  cursor: default;
 }

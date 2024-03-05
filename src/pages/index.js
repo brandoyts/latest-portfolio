@@ -1,7 +1,7 @@
 import Head from "next/head";
-import styles from "../styles/Home.module.css";
 import Link from "next/link";
 import Typewriter from "typewriter-effect";
+import styles from "../styles/Home.module.css";
 
 const intro = ["</Software Developer>", "</C# OVER C>", "</MUSICIAN>"];
 
@@ -30,7 +30,7 @@ export default function Home() {
           />
         </div>
         <Link href="/portfolio">
-          <a className={styles.textContent__btn}>
+          <span className={styles.textContent__btn}>
             MY WORK{" "}
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -48,7 +48,7 @@ export default function Home() {
                 clipRule="evenodd"
               />
             </svg>
-          </a>
+          </span>
         </Link>
       </div>
     </div>
